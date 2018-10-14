@@ -3,7 +3,7 @@ def batch_badge_creator(array)
   if x <= 7
     puts "Hellow, #{name}! You'll be assigned to room #{x}"
   end 
-  
+  x += 1
   new_arr = []
   array.each do |name|
     new_arr << "Hello, my name is #{name}"
