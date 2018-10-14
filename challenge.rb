@@ -27,4 +27,11 @@ my_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 puts assign_rooms(my_array)
 
 def printer(array)
-  batch_badge_creator(array).each
+  batch_badge_creator(array).each do |badge|
+    puts badge
+  end
+  
+  assign_rooms(array).each do |assignment|
+    puts assignment
+  end
+end
