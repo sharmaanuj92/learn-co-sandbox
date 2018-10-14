@@ -1,7 +1,7 @@
 def batch_badge_creator(array)
   new_arr = []
   array.each do |name|
-    new_arr << "Hello, my name is #{name}"
+    new_arr << "Hello, #{name}! You'll be assigned to room #{x}"
   end
   return new_arr
   x = 1 
