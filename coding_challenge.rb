@@ -1,5 +1,6 @@
 def batch_badge_creator(array)
   x = 1 
+  while x <= 7
   
   new_arr = []
   array.each do |name|
