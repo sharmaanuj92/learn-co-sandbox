@@ -1,5 +1,5 @@
 
-def my_method(array)
+def batch_badge_creator(array)
   new_arr = []
   array.each do |name|
     new_arr << "Hello, my name is #{name}"
@@ -9,4 +9,4 @@ end
 
 my_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-puts my_method(my_array)
+puts batch_badge_creator(my_array)
