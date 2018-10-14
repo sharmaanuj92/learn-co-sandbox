@@ -12,7 +12,7 @@ my_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 puts batch_badge_creator(my_array)
 
 
-def batch_badge_creator(array)
+def assign_rooms(array)
   x = 1
   new_arr = []
   array.each do |name|
@@ -24,4 +24,4 @@ end
 
 my_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-puts batch_badge_creator(my_array)
+puts assign_rooms(my_array)
